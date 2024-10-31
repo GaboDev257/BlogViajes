@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="public/css/style.css">
     <title>Blog</title>
 </head>
 <body>
     <header>
         <nav>
             <div class="user-data">
-                <img src="public/user.png" alt="user" class="user-img">           
+                <img src="public/img/user.png" alt="user" class="user-img">           
                 <div class="name">
                     <a href="#">Mike Nieva</a>
                 </div>
@@ -21,9 +21,77 @@
         </nav>
     </header>
     <main>
-        <section>
-aquí las cards
+        <div class="titles">
+            <h1>Mi blog de viajes</h1>
+            <p>Conoce todos mis viajes alrededor del mundo.</p>
+        </div>
+        <section class="section-cards">
+            <div class="card">
+                <div class="img-card">
+                    <a href="#">
+                        <img src="public/img/puebla.jpg" alt="">
+                    </a>
+                </div>
+                <div class="text-info">
+                    <div>
+                        <span>México</span>
+                        <a href="#">
+                            <p class="card-title">Conociendo Puebla</p>
+                        </a>
+                        <p>                      
+                            En este viaje, aprendí mucho sobre la gastronomía poblana.
+                        </p>
+                    </div>
+                    <div class="date-info">
+                        <time datetime="2022-03-28">Marzo 28, 2022</time>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-card">
+                    <a href="#">
+                        <img src="public/img/cdmx.jpg" alt="cdmx">
+                    </a>
+                </div>
+                <div class="text-info">
+                    <div>
+                        <span>México</span>
+                        <a href="#">
+                            <p class="card-title">Viviendo en CDMX</p>
+                        </a>
+                        <p>                      
+                           Estuve muchos años en CDMX viviendo. Esto es lo que aprendí
+                        </p>
+                    </div>
+                    <div class="date-info">
+                        <time datetime="2022-03-28">Marzo 28, 2022</time>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-card">
+                    <a href="#">
+                        <img src="public/img/bogota.jpg" alt="bogota">
+                    </a>
+                </div>
+                <div class="text-info">
+                    <div>
+                        <span>Colombia</span>
+                        <a href="#">
+                            <p class="card-title">Visitando Bogotá</p>
+                        </a>
+                        <p>                      
+                            Bogotá es una de las ciudades más interesantes de LATAM. Te muestro mi viaje con detalle.
+                        </p>
+                    </div>
+                    <div class="date-info">
+                        <time datetime="2022-03-28">Marzo 28, 2022</time>
+                    </div>
+                </div>
+            </div>
+
         </section>
+
     </main>
 </body>
 </html>
